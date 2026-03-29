@@ -1,66 +1,72 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <title>Museus</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Brasil</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
+    <header class="header">
+        <h1>🌴 Travel Brasil</h1>
+        <nav class="menu">
+            <a href="#home">Home</a>
+            <a href="#destinos">Destinos</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>
+        </nav>
+        <div class="menu-mobile">
+            <span>☰</span>
+        </div>
+    </header>
 
-<header class="header">
-  <div class="logo">LOGO</div>
+    <section class="banner">
+        <img src="https://picsum.photos/1200/400" alt="Banner">
+    </section>
 
-  <nav class="menu">
-    <a href="#">Home</a>
-    <a href="#">Museus</a>
-    <a href="#">Contato</a>
-  </nav>
-</header>
+    <section class="intro">
+        <h2>Descubra o Brasil</h2>
+        <p>Os melhores destinos turísticos do Brasil</p>
+    </section>
 
-<main>
+    <section class="lugares">
+        <div class="card">
+            <img src="https://picsum.photos/400/250?random=1" alt="Rio">
+            <div class="card-close">✕</div>
+            <h3>Rio de Janeiro</h3>
+            <p>Cristo Redentor e praias</p>
+        </div>
+        <div class="card">
+            <img src="https://picsum.photos/400/250?random=2" alt="Floripa">
+            <div class="card-close">✕</div>
+            <h3>Florianópolis</h3>
+            <p>100 praias lindas</p>
+        </div>
+        <div class="card">
+            <img src="https://picsum.photos/400/250?random=3" alt="Salvador">
+            <div class="card-close">✕</div>
+            <h3>Salvador</h3>
+            <p>Cultura e axé</p>
+        </div>
+    </section>
 
-<section class="banner">
-  <img src="https://picsum.photos/id/101/800/300" alt="imagem grande">
-</section>
+    <section class="formulario">
+        <h2>Entre em Contato</h2>
+        <form>
+            <input type="text" placeholder="Nome" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Mensagem" rows="5" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
 
-<section class="lugares">
-
-  <article class="card">
-    <img src="https://picsum.photos/id/102/200/200">
-    <h2>Museu A</h2>
-    <p>Descrição do museu</p>
-  </article>
-
-  <article class="card">
-    <img src="https://picsum.photos/id/103/200/200">
-    <h2>Museu B</h2>
-    <p>Descrição do museu</p>
-  </article>
-
-  <article class="card">
-    <img src="https://picsum.photos/id/104/200/200">
-    <h2>Museu C</h2>
-    <p>Descrição do museu</p>
-  </article>
-
-</section>
-
-<section class="formulario">
-  <h2>Contato</h2>
-
-  <form>
-    <input type="text" placeholder="Nome">
-    <input type="email" placeholder="Email">
-    <button>Enviar</button>
-  </form>
-</section>
-
-</main>
-
-<footer class="footer">
-  <p>Informações de contato</p>
-</footer>
-
+    <footer class="footer">
+        <p>© 2024 Travel Brasil</p>
+        <div>
+            <a href="#">Facebook</a> | 
+            <a href="#">Instagram</a> | 
+            <a href="#">WhatsApp</a>
+        </div>
+    </footer>
 </body>
 </html>
